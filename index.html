@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Document</title>
+</head>
+<body class="bg-[#001e4d]">
+    
+    <div class="app bg-[#fff] w-[50%] mt-[50px] mx-auto mb-[0] rounded-[10px] p-[30px]">
+       
+        <h1 class="text-[30px] font-semibold border-b border-[#333] pb-[30px] text-[#001e4d] ">Simple Quiz</h1>
+        
+        <div class="quizz py-[20px] ">
+
+            <h2 id="question" class="text-[18px] ">Question goes here</h2>
+
+            <div id="answer-buttons">
+
+                <button class="btn text-[#222] font-semibold w-full border p-[10px] my-[10px] text-left rounded-[4px] cursor-pointer hover:bg-[#222] hover:text-[#fff] transition duration-300">Answer1</button>
+                <button class="btn text-[#222] font-semibold w-full border p-[10px] my-[10px] text-left rounded-[4px] cursor-pointer hover:bg-[#222] hover:text-[#fff] transition duration-300">Answer2</button>
+                <button class="btn text-[#222] font-semibold w-full border p-[10px] my-[10px] text-left rounded-[4px] cursor-pointer hover:bg-[#222] hover:text-[#fff] transition duration-300">Answer3</button>
+                <button class="btn text-[#222] font-semibold w-full border p-[10px] my-[10px] text-left rounded-[4px] cursor-pointer hover:bg-[#222] hover:text-[#fff] transition duration-300">Answer4</button>
+            </div>
+            <div id="next-btn" class="bg-[#001e4d] text-[#fff] font-semibold w-[150px] p-[10px] my-[10px] text-center rounded-[4px] cursor-pointer hidden">Next</div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
